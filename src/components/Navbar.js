@@ -12,17 +12,17 @@ export default function Navbar() {
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link a1" href="#About">
+            <a className="nav-link a2" href="#About">
               About
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link  a1" href="#Products">
+            <a className="nav-link  a3" href="#Products">
               Products
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link  a1" href="#Cantact">
+            <a className="nav-link  a4" href="#Cantact">
               Contact Us
             </a>
           </li>
