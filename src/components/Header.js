@@ -9,8 +9,8 @@ export default function Header() {
       <Typed
         className="col-12 my-3 typed-text"
         strings={[
-          "I'm a Full Stack Developer",
-          "I'm a Business Intelligence Student",
+          "I'm a Full Stack Developer.",
+          "I'm a Business Intelligence Student.",
         ]}
         typeSpeed={40}
         backSpeed={50}
