@@ -1,7 +1,8 @@
 .center{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem !important;
 }
 .round-image {
     width: 250px ;
@@ -9,11 +10,11 @@
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
-    margin-top: 6rem !important;
+    margin-top: 6rem ;
     
    }
    .typed-text{
-    color: black !important;
+    color: black ;
     display: block;
     text-align: -webkit-center;
    }
