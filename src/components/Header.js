@@ -7,7 +7,7 @@ export default function Header() {
     <div className="container row center">
       <img className="round-image" src={image} alt="." />
       <Typed
-        className="col-12 typed-text"
+        className="col-12 my-3 typed-text"
         strings={[
           "I'm a Full Stack Developer",
           "I'm a Business Intelligence Student",
