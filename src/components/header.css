@@ -1,0 +1,13 @@
+.container{
+   
+     display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.round-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    -webkit-border-radius: 125px;
+    -moz-border-radius: 125px;
+   }
