@@ -1,0 +1,23 @@
+.About{
+    height: 90vh;
+
+}
+.resume{
+    font-size: 18px;
+    text-align: -webkit-center;
+    font-weight: 500;
+    padding-top: 8rem;
+}
+.button{
+    position: absolute;
+    left: 46%;
+   width: 100px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    text-align: -webkit-center;
+    font-weight: bolder;
+    background-color: #ad4dec;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+}
