@@ -1,13 +1,19 @@
-.container{
-margin-top: 6rem !important;
+.center{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
 }
 .round-image {
-    width: 250px;
-    height: 250px;
+    width: 250px ;
+    height: 250px ;
     border-radius: 125px;
     -webkit-border-radius: 125px;
     -moz-border-radius: 125px;
+    margin-top: 6rem !important;
+    
+   }
+   .typed-text{
+    color: black !important;
+    display: block;
+    text-align: -webkit-center;
    }
