@@ -1,0 +1,17 @@
+.contact{
+    height: 90vh ;
+    display: flex;
+    justify-content: center;
+}
+.button-contact{
+    width: 140px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(49, 52, 228);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+.informations{
+    background-color: rgb(49, 52, 228);
+}
