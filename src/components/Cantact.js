@@ -1,5 +1,11 @@
 import React from "react";
 import "./cantact.css";
+import PersonPinIcon from "@material-ui/icons/PersonPin";
+import EmailSharpIcon from "@material-ui/icons/EmailSharp";
+import PhoneSharpIcon from "@material-ui/icons/PhoneSharp";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
 export default function Cantact() {
   return (
     <div className="container">
@@ -22,7 +28,7 @@ export default function Cantact() {
             </label>
             <select className="form-control" id="exampleFormControlSelect1">
               <option>Freelance</option>
-              <option>Frontend (React JS)</option>
+              <option>Frontend (React JS, React Native)</option>
               <option>Backend (NodeJS,ExpressJS)</option>
               <option>Help :) </option>
             </select>
@@ -41,9 +47,55 @@ export default function Cantact() {
           </div>
           <div className="button-contact">Send Message</div>
         </form>
-        <div className="card informations col-5 my-2 pl-2">
-          <h2 className="mt-5 mx-5 px-3">Cantact me</h2>
-          <div className="row"></div>
+        <div className="card informations col-4  my-2 pl-2">
+          <h2 className="mt-5 mx-5 ">Cantact me</h2>
+          <div className="row">
+            <PersonPinIcon
+              style={{ fontSize: "55px" }}
+              className="ml-4 mt-5 col-2"
+            />
+            <div className="text-cantact col-7 mt-2 pt-5">
+              <span className="bold">Adress : </span> beb souika TUNIS 1006
+            </div>
+          </div>
+          <div className="row">
+            <EmailSharpIcon
+              style={{ fontSize: "42px" }}
+              className="ml-4 mt-4 pt-3 col-2"
+            />
+            <div className="text-cantact col-6 mt-4 pt-3">
+              <span className="bold">Email : </span>samioumaima433@gmail.com
+            </div>
+          </div>
+          <div className="row">
+            <PhoneSharpIcon
+              style={{ fontSize: "42px" }}
+              className="ml-4 mt-4 pt-3 col-2"
+            />
+            <div className="text-cantact col-7 mt-4 pt-3">
+              <span className="bold">Phone : </span> +216 90442724
+            </div>
+          </div>
+          <div className="row justify-content-center cantact-end">
+            <a href="https://www.facebook.com/oumaima.samiii">
+              <FacebookIcon
+                className="mx-2"
+                style={{ fontSize: "40px", color: "white" }}
+              />
+            </a>
+            <a href="https://www.instagram.com/oumaimasami_/">
+              <InstagramIcon
+                className="mx-2"
+                style={{ fontSize: "40px", color: "white" }}
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/oumaima-sami-568504187/">
+              <LinkedInIcon
+                className="mx-2"
+                style={{ fontSize: "40px", color: "white" }}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

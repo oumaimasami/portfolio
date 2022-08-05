@@ -1,5 +1,5 @@
 .About{
-    height: 90vh;
+    height: 100vh;
 
 }
 .resume{
@@ -16,8 +16,21 @@
    padding-bottom: 10px;
     text-align: -webkit-center;
     font-weight: bolder;
-    background-color: #ad4dec;
+    background-color: #F7D319;
     color: white;
     border-radius: 20px;
     font-size: 18px;
+    text-decoration: none !important;
+}
+.button:hover{
+    background-color: #FFF; 
+    color: #F7D319;
+    border: 1px solid #F7D319;
+}
+.img-info{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+margin-left: 6rem;
+margin-top: 1rem;
 }
