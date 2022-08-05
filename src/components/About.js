@@ -8,7 +8,9 @@ export default function About() {
           Welcome to my portfolio ,check my CV and the projects I've worked on
           below , feel free to cantact me.
         </p>
-        <div className="button">CV</div>
+        <a className="button" href="#">
+          CV
+        </a>
       </div>
     </div>
   );
