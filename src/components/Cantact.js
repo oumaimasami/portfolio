@@ -6,6 +6,7 @@ import PhoneSharpIcon from "@material-ui/icons/PhoneSharp";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
+import GitHubIcon from "@material-ui/icons/GitHub";
 export default function Cantact() {
   return (
     <div className="container">
@@ -91,6 +92,12 @@ export default function Cantact() {
             </a>
             <a href="https://www.linkedin.com/in/oumaima-sami-568504187/">
               <LinkedInIcon
+                className="mx-2"
+                style={{ fontSize: "40px", color: "white" }}
+              />
+            </a>
+            <a href="https://github.com/oumaimasami">
+              <GitHubIcon
                 className="mx-2"
                 style={{ fontSize: "40px", color: "white" }}
               />
