@@ -1,16 +1,17 @@
+.projects{
+    margin-bottom: 10em;
+}
 .proj-image{
     width:350px;
 }
 .proj-descp{
     font-size: 18px;
-    font-weight: 500;
+    text-align: start;
+    
 }
 
-.projects{
-    height: 100vh;
-}
 .proj-button{
-width:130px;
+width:180px;
 font-weight: bold;
 padding-top: 12px;
 padding-bottom: 12px;
