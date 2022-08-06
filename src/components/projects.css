@@ -2,9 +2,31 @@
     margin-bottom: 10em;
 }
 .proj-image{
-    width:350px;
+    width:500px;
    
 }
+.proj-image :hover  {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .proj-descp{
     font-size: 18px;
     text-align: start;
