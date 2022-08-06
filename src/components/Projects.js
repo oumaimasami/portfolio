@@ -31,7 +31,7 @@ export default function Projects() {
       <div className=" project my-5 py-5 row">
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">
-            React Native Project - Projet fin d'étude
+            React Native Project - Projet fin d'études
           </h3>
           <p className="proj-descp my-5">
             - Authentification , reset password using mail verification . <br />
