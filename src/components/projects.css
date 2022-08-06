@@ -3,6 +3,7 @@
 }
 .proj-image{
     width:350px;
+   
 }
 .proj-descp{
     font-size: 18px;
@@ -33,5 +34,6 @@ cursor: pointer;
 
 .proj-info{
     text-align: -webkit-center;
-
 }
+
+  

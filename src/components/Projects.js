@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className="container projects">
       <div className=" project my-5 py-5 row">
-        <img className="proj-image col-6" src={image1} alt="." />
+        <img className="proj-image col-6 " src={image1} alt="." />
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">MERN Project - Projet fin d'études</h3>
           <p className="proj-descp my-5">
