@@ -7,14 +7,13 @@ import image3 from "../images/proj3.png";
 export default function Projects() {
   return (
     <div className="container projects">
-      <div className=" project">
-        <img className="proj-image mt-5" src={image1} alt="." />
-        <p className="proj-descp text-center mt-3">
-          MERN Project - Projet fin d'étude
-        </p>
-        <div className="row justify-content-center mb-5">
+      <div className=" project mt-5 row">
+        <img className="proj-image col-6" src={image1} alt="." />
+        <div className="col-6 mb-5 proj-info">
+          <h1 className="proj-descp text-center ">
+            MERN Project - Projet fin d'étude
+          </h1>
           <div className="proj-button mx-2"> demo </div>
-          <div className="proj-button mx-2"> code </div>
         </div>
       </div>
     </div>
