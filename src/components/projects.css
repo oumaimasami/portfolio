@@ -1,0 +1,21 @@
+.proj-image{
+    width:350px;
+}
+.proj-descp{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.projects{
+    height: 100vh;
+}
+.proj-button{
+width:90px;
+font-weight: bold;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+background-color: rgb(194, 54, 35);
+color: white;
+border-radius: 12px;
+}
