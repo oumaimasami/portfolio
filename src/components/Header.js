@@ -9,14 +9,20 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import sun from "../images/sun.png";
 import moon from "../images/moon.png";
+import { useState } from "react";
 
 export default function Header() {
+  const [light, setlight] = useState(false);
+
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-end">
-        <img className="light" src={sun} alt="." />
-        <img className="light" src={moon} alt="." />
+      <div className="d-flex justify-content-end m-4">
+        {light ? (
+          <img className="sun" src={sun} alt="." />
+        ) : (
+          <img className="moon" src={moon} alt="." />
+        )}
       </div>
       <div className="container row center">
         <img className="round-image" src={image} alt="." />
