@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container row center">
         <img className="round-image" src={image} alt="." />
         <Typed
-          className="col-12 my-3 typed-text"
+          className="col-12 mt-5 pt-4 typed-text"
           strings={[
             "I'm a Full Stack Developer.",
             "I'm a Business Intelligence Student.",
@@ -23,7 +23,7 @@ export default function Header() {
           backSpeed={50}
           loop
         />
-        <div className="row justify-content-center">
+        <div className="row mt-3 pt-3 justify-content-center">
           <a href="https://www.facebook.com/oumaima.samiii">
             <FacebookIcon
               className="mx-2"
