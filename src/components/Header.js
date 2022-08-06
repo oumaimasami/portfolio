@@ -17,11 +17,21 @@ export default function Header() {
   return (
     <>
       <Navbar />
-      <div className="d-flex justify-content-end m-4">
+      <div className="d-flex justify-content-end ">
         {light ? (
-          <img className="sun" src={sun} alt="." />
+          <img
+            className="sun m-3"
+            src={sun}
+            alt="."
+            onClick={() => setlight(false)}
+          />
         ) : (
-          <img className="moon" src={moon} alt="." />
+          <img
+            className="moon m-4"
+            src={moon}
+            alt="."
+            onClick={() => setlight(true)}
+          />
         )}
       </div>
       <div className="container row center">
