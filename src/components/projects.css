@@ -10,14 +10,15 @@
     height: 100vh;
 }
 .proj-button{
-width:90px;
+width:130px;
 font-weight: bold;
-padding-top: 10px;
-padding-bottom: 10px;
+padding-top: 12px;
+padding-bottom: 12px;
 text-align: center;
-background-color: rgb(194, 54, 35);
+background-color: #FF0000;
 color: white;
 border-radius: 12px;
+font-size: 19px;
 }
 .proj-info{
     text-align: -webkit-center;
