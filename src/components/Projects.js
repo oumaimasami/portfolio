@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div className="container projects">
       <div className=" project my-5 py-5 row">
-        <figure className="col-6">
+        <figure className=" proj-image col-6">
           <img className="proj-image" src={image1} alt="." />
         </figure>
         <div className="col-6 mb-5 proj-info">
@@ -51,12 +51,12 @@ export default function Projects() {
             Demo
           </a>
         </div>
-        <figure className="col-6">
+        <figure className="col-6 proj-image">
           <img className="proj-image" src={image2} alt="." />
         </figure>
       </div>
       <div className=" project my-5 py-5 row">
-        <figure className="col-6">
+        <figure className="col-6 proj-image">
           <img className="proj-image" src={image3} alt="." />
         </figure>
         <div className="col-6 mb-5 proj-info">

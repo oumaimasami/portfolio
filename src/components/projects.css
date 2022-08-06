@@ -1,9 +1,13 @@
 .projects{
     margin-bottom: 10em;
 }
+.proj-image > img:hover {
+    width: 515px;
+    z-index: 3;
+  }
 .proj-image{
     width:500px;
-   
+
 }
 .proj-image :hover  {
 	opacity: 1;
