@@ -56,3 +56,7 @@
         transform: translate3d(0, 35px, 0);
     }
 }
+
+.light{
+    width: 50px;
+}

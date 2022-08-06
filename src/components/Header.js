@@ -7,10 +7,17 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import sun from "../images/sun.png";
+import moon from "../images/moon.png";
+
 export default function Header() {
   return (
     <>
       <Navbar />
+      <div className="d-flex justify-content-end">
+        <img className="light" src={sun} alt="." />
+        <img className="light" src={moon} alt="." />
+      </div>
       <div className="container row center">
         <img className="round-image" src={image} alt="." />
         <Typed
