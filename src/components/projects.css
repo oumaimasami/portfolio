@@ -11,7 +11,9 @@
 }
 
 .proj-button{
-width:180px;
+text-decoration: none !important;
+padding-left: 30px;
+padding-right: 30px;
 font-weight: bold;
 padding-top: 12px;
 padding-bottom: 12px;
@@ -21,6 +23,14 @@ color: white;
 border-radius: 12px;
 font-size: 19px;
 }
+.proj-button:hover{
+text-decoration: none !important;
+background-color: white;
+border: 1px solid #FF0000;
+color: #FF0000;
+cursor: pointer;
+}
+
 .proj-info{
     text-align: -webkit-center;
 

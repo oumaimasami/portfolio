@@ -7,7 +7,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 export default function Projects() {
   return (
     <div className="container projects">
-      <div className=" project my-5 row">
+      <div className=" project my-5 py-5 row">
         <img className="proj-image col-6" src={image1} alt="." />
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">MERN Project - Projet fin d'études</h3>
@@ -19,13 +19,16 @@ export default function Projects() {
             "favorites" , "watch later" listes. <br /> - Allow the administrator
             to manage users and medias.
           </p>
-          <div className="proj-button mx-2">
+          <a
+            className="proj-button mx-2"
+            href="https://www.youtube.com/watch?v=PgHIk_uaDd8"
+          >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo
-          </div>
+          </a>
         </div>
       </div>
-      <div className=" project my-5 row">
+      <div className=" project my-5 py-5 row">
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">
             React Native Project - Projet fin d'étude
@@ -38,14 +41,17 @@ export default function Projects() {
             "favorites" , "watch later" listes. <br /> - Allow the administrator
             to manage users and medias.
           </p>
-          <div className="proj-button mx-2">
+          <a
+            className="proj-button mx-2"
+            href="https://www.youtube.com/watch?v=zkRvq4Tbr14&t=9s"
+          >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo
-          </div>
+          </a>
         </div>
         <img className="proj-image col-6" src={image2} alt="." />
       </div>
-      <div className=" project my-5 row">
+      <div className=" project my-5 py-5 row">
         <img className="proj-image col-6" src={image3} alt="." />
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">
@@ -59,10 +65,13 @@ export default function Projects() {
             <br />
             - Consult news of the charity association. <br />- Sponsor interface
           </p>
-          <div className="proj-button mx-2">
+          <a
+            className="proj-button mx-2"
+            href="https://www.youtube.com/watch?v=2nV2NUvb17Y&t=13s"
+          >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo
-          </div>
+          </a>
         </div>
       </div>
     </div>
