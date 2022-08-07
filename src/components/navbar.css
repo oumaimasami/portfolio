@@ -71,6 +71,6 @@
     }
   }
   
-  .navbar-dark{
-    background-color: #020 !important;
+  .dark{
+    color: white !important;
   }

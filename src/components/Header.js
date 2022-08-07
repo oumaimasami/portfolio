@@ -6,6 +6,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import git from "../images/git.png";
 
 export default function Header({ light }) {
   return (
@@ -46,10 +47,7 @@ export default function Header({ light }) {
             />
           </a>
           <a href="https://github.com/oumaimasami">
-            <GitHubIcon
-              className="mx-2 icon"
-              style={{ fontSize: "35px", color: "#000" }}
-            />
+            <img className="mx-2 git" src={git} />
           </a>
         </div>
       </div>
