@@ -11,7 +11,7 @@ export default function Cantact() {
   return (
     <div className="container mb-5 pb-5">
       <div className=" row contact">
-        <form className="col-6 card my-5">
+        <form className="col-6 card form1 my-5">
           <div className="form-group mt-5 mb-3">
             <label className="mx-1" for="exampleFormControlInput1 pt-2">
               Email
