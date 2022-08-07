@@ -1,4 +1,7 @@
 .dark{
     background-color: #222222;
     color: white;
+    background-image: url("../src/images/back.png");
+    background-repeat:no-repeat;
+    background-size: cover;
 }

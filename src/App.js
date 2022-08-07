@@ -8,6 +8,7 @@ import moon from "./images/moon.png";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import HireMe from "./components/HireMe";
+import Footer from "./components/Footer";
 
 function App() {
   const [light, setlight] = useState(false);
@@ -36,6 +37,7 @@ function App() {
       <Projects />
       <Cantact />
       <HireMe />
+      <Footer />
     </div>
   );
 }
