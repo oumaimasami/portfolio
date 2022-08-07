@@ -5,7 +5,6 @@ import image from "../images/img.jpg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import git from "../images/git.png";
 
 export default function Header({ light }) {
