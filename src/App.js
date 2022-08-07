@@ -11,8 +11,8 @@ import Navbar from "./components/Navbar";
 function App() {
   const [light, setlight] = useState(false);
   return (
-    <div className="light">
-      <Navbar />
+    <div className={light ? "dark" : "light"}>
+      <Navbar light={light ? "dark" : "light"} />
       <div className="d-flex justify-content-end ">
         {light ? (
           <img
@@ -30,7 +30,7 @@ function App() {
           />
         )}
       </div>
-      <Header />
+      <Header light="dark" />
       <About />
       <Projects />
       <Cantact />
