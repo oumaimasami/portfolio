@@ -46,7 +46,9 @@ export default function Cantact() {
               rows="4"
             ></textarea>
           </div>
-          <div className="button-contact">Send Message</div>
+          <button type="submit" className="btn button-contact">
+            Send Message
+          </button>
         </form>
         <div className="card informations col-4  my-2 pl-2">
           <h2 className="mt-5 mx-5 ">Cantact me</h2>
