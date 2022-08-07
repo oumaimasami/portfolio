@@ -9,7 +9,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 export default function Cantact() {
   return (
-    <div className="container">
+    <div className="container mb-5 pb-5">
       <div className=" row contact">
         <form className="col-6 card my-5">
           <div className="form-group mt-5 mb-3">

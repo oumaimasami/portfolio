@@ -2,7 +2,6 @@ import React from "react";
 import "./header.css";
 import Typed from "react-typed";
 import image from "../images/img.jpg";
-import Navbar from "./Navbar";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";

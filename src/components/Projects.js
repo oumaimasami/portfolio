@@ -7,6 +7,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube";
 export default function Projects() {
   return (
     <div className="container projects">
+      <h1 className="pl-5 ml-2 mt-2">My Projects</h1>
       <div className=" project my-5 py-5 row">
         <figure className=" proj-image col-6">
           <img className="proj-image1" src={image1} alt="." />
