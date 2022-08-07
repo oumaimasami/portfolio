@@ -1,12 +1,31 @@
 .HireButton{
-    background-color: #4ebbfa;
-    width: 200px;
-    border: #4ebbfa;
-    border-radius: 13px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
+    
 }
 .hire{
     height: 70vh;
+    display: flex;
+    justify-content: center;
 }
+.HireButton {
+    background-color: #4ebbfa !important;
+    width: 200px;
+    border: #4ebbfa;
+    border-radius: 13px ;
+    color: white !important;
+    font-size: 21px !important;
+    font-weight: bold !important;
+    box-shadow: 0 0 40px 40px #4ebbfa inset, 0 0 0 0 #4ebbfa;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+  }
+  .HireButton:hover {
+    box-shadow: 0 0 10px 0 #4ebbfa inset, 0 0 10px 4px #4ebbfa;
+    background-color: white !important;
+    color: #4ebbfa !important;
+  }
+
+  .form-group{
+    font-size: 19px;
+    font-weight: 500;
+    width: 500px;
+  }
