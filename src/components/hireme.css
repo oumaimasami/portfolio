@@ -1,0 +1,12 @@
+.HireButton{
+    background-color: #4ebbfa;
+    width: 200px;
+    border: #4ebbfa;
+    border-radius: 13px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hire{
+    height: 70vh;
+}

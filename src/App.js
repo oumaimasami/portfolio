@@ -7,6 +7,7 @@ import sun from "./images/sun.png";
 import moon from "./images/moon.png";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
+import HireMe from "./components/HireMe";
 
 function App() {
   const [light, setlight] = useState(false);
@@ -34,6 +35,7 @@ function App() {
       <About />
       <Projects />
       <Cantact />
+      <HireMe />
     </div>
   );
 }
