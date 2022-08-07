@@ -1,14 +1,10 @@
-.HireButton{
-    
-}
 .hire{
     height: 70vh;
-    display: flex;
-    justify-content: center;
+ 
 }
 .HireButton {
     background-color: #4ebbfa !important;
-    width: 200px;
+    width: 170px;
     border: #4ebbfa;
     border-radius: 13px ;
     color: white !important;
@@ -29,3 +25,8 @@
     font-weight: 500;
     width: 500px;
   }
+  .hire-image{
+    width:400px;
+    
+  }
+  
