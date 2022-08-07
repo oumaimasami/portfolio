@@ -8,6 +8,11 @@
 .proj-image{
     width:500px;
 }
+.proj-image1{
+    width:500px;
+	padding-bottom: 2.5rem;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 10px -20px;
+}
 .proj-image :hover  {
 	opacity: 1;
 	-webkit-animation: flash 1.5s;

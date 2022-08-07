@@ -9,7 +9,7 @@ export default function Projects() {
     <div className="container projects">
       <div className=" project my-5 py-5 row">
         <figure className=" proj-image col-6">
-          <img className="proj-image" src={image1} alt="." />
+          <img className="proj-image1" src={image1} alt="." />
         </figure>
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">MERN Project - Projet fin d'études</h3>
@@ -52,12 +52,12 @@ export default function Projects() {
           </a>
         </div>
         <figure className="col-6 proj-image">
-          <img className="proj-image" src={image2} alt="." />
+          <img className="proj-image1" src={image2} alt="." />
         </figure>
       </div>
       <div className=" project my-5 py-5 row">
         <figure className="col-6 proj-image">
-          <img className="proj-image" src={image3} alt="." />
+          <img className="proj-image1" src={image3} alt="." />
         </figure>
         <div className="col-6 mb-5 proj-info">
           <h3 className="text-center">
