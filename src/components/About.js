@@ -11,7 +11,10 @@ export default function About() {
             Welcome to my portfolio ,check my CV and the projects I've worked on
             below , feel free to cantact me.
           </p>
-          <a className="button" href="#">
+          <a
+            className="button"
+            href="https://drive.google.com/file/d/1xCmFEHzlKXygKmpSCg1m-TL3pZEoP5XK/view?usp=sharing"
+          >
             CV
           </a>
         </div>

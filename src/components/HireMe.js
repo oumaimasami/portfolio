@@ -15,7 +15,7 @@ export default function HireMe() {
           )}
         </div>
         <form className=" col-8 text-center">
-          <div className="row form-group mt-5 pb-4">
+          <div className="row ml-5 pl-5 form-group mt-5 pt-5 pb-4">
             <input
               type="email"
               className="form-control mt-3"
