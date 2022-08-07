@@ -3,7 +3,13 @@ import "./navbar.css";
 
 export default function Navbar({ light }) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav
+      className={
+        light
+          ? "navbar navbar-expand-lg navbar-dark bg-dark"
+          : "navbar navbar-expand-lg navbar-light bg-light"
+      }
+    >
       <div className="collapse navbar-collapse mr-5" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item pr-2 pl-5 active">

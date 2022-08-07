@@ -8,13 +8,17 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 
-export default function Header() {
+export default function Header({ light }) {
   return (
     <>
       <div className="container row center">
         <img className="round-image" src={image} alt="." />
         <Typed
-          className="col-12 mt-5 pt-4 typed-text"
+          className={
+            light
+              ? "col-12 mt-5 pt-4 typed-text-dark"
+              : "col-12 mt-5 pt-4 typed-text"
+          }
           strings={[
             "I'm a Full Stack Developer.",
             "I'm a Business Intelligence Student.",
@@ -45,7 +49,7 @@ export default function Header() {
           <a href="https://github.com/oumaimasami">
             <GitHubIcon
               className="mx-2"
-              style={{ fontSize: "35px", color: "#333333" }}
+              style={{ fontSize: "35px", color: "#000" }}
             />
           </a>
         </div>

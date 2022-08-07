@@ -26,6 +26,13 @@
     display: block;
     text-align: -webkit-center;
    }
+   .typed-text-dark{
+    font-weight: bold;
+    font-size: 19px;
+    color: white ;
+    display: block;
+    text-align: -webkit-center;
+   }
    @keyframes bounce {
     from {
         transform: translate3d(0, 0, 0);

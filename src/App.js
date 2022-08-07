@@ -12,7 +12,7 @@ function App() {
   const [light, setlight] = useState(false);
   return (
     <div className={light ? "dark" : "light"}>
-      <Navbar light={light ? "dark" : "light"} />
+      <Navbar light={light} />
       <div className="d-flex justify-content-end ">
         {light ? (
           <img
@@ -30,7 +30,7 @@ function App() {
           />
         )}
       </div>
-      <Header light="dark" />
+      <Header light={light} />
       <About />
       <Projects />
       <Cantact />
