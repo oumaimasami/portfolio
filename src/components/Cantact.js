@@ -10,7 +10,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 export default function Cantact() {
   return (
     <div className="container mb-5 pb-5">
-      <div className=" row contact">
+      <div className=" row contact" id="Cantact">
         <form className="col-6 card form1 my-5">
           <div className="form-group mt-5 mb-3">
             <label className="mx-1" for="exampleFormControlInput1 pt-2">
@@ -37,7 +37,7 @@ export default function Cantact() {
 
           <div className="form-group my-4">
             <label className="mx-1" for="exampleFormControlTextarea1">
-              Feel Free to ask :)
+              Ask me a question :)
             </label>
             <textarea
               className="form-control"
