@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import image from "../images/data.gif";
+import Candle from "./Candle";
 export default function About() {
   return (
     <div className="container">
@@ -15,7 +16,7 @@ export default function About() {
           </a>
         </div>
         <div className="col-6">
-          <img className="img-info" src={image} alt="."></img>
+          <Candle />
         </div>
       </div>
     </div>
