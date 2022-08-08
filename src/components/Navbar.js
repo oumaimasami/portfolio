@@ -33,7 +33,7 @@ export default function Navbar({ light }) {
               className={light ? "nav-link dark a3" : "nav-link  a3"}
               href="#Cantact"
             >
-              Cantact
+              Contact
             </a>
           </li>
           <li className="nav-item pr-2">
