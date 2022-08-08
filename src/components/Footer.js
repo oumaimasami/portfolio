@@ -31,7 +31,7 @@ export default function Footer() {
           <img className="mx-2 git" src={git} />
         </a>
       </div>
-      <h6 className="text-center mt-5">© Copyright Oumaimasami 2022</h6>
+      <h6 className="text-center mt-5">© Copyyright Oumaimasami 2022</h6>
     </div>
   );
 }
