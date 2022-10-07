@@ -2,18 +2,18 @@ import React from "react";
 import "./Candle.css";
 export default function Candle() {
   return (
-    <div class="wrapper">
-      <div class="candles">
-        <div class="light__wave"></div>
-        <div class="candle1">
-          <div class="candle1__body">
-            <div class="candle1__eyes">
-              <span class="candle1__eyes-one"></span>
-              <span class="candle1__eyes-two"></span>
+    <div className="wrapper">
+      <div className="candles">
+        <div className="light__wave"></div>
+        <div className="candle1">
+          <div className="candle1__body">
+            <div className="candle1__eyes">
+              <span className="candle1__eyes-one"></span>
+              <span className="candle1__eyes-two"></span>
             </div>
-            <div class="candle1__mouth"></div>
+            <div className="candle1__mouth"></div>
           </div>
-          <div class="candle1__stick"></div>
+          <div className="candle1__stick"></div>
         </div>
 
         <div class="candle2">

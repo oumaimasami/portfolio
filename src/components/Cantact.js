@@ -51,7 +51,7 @@ export default function Cantact() {
           </button>
         </form>
         <div className="card informations col-4  my-2 pl-2">
-          <h2 className="mt-5 mx-5 ">Cantact me</h2>
+          <h2 className="mt-5 mx-5 ">Contact me</h2>
           <div className="row">
             <PersonPinIcon
               style={{ fontSize: "55px" }}
