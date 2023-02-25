@@ -6,8 +6,8 @@ export default function Navbar({ light }) {
     <nav
       className={
         light
-          ? "navbar navbar-expand-lg navbar-light bg-light dark"
-          : "navbar navbar-expand-lg navbar-light bg-light"
+          ? "navbar navbar sticky-top navbar-expand-lg dark1"
+          : "navbar navbar-expand-lg navbar-light light1"
       }
     >
       <button
@@ -21,11 +21,12 @@ export default function Navbar({ light }) {
       >
         <FormatListBulletedIcon />
       </button>
-      <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item pr-2 pl-5 active">
             <a
-              className={light ? "nav-link dark a1" : "nav-link  a1"}
+              className={light ? "nav-link dark1 a1" : "nav-link a1"}
               href="#About"
             >
               About <span className="sr-only">(current)</span>
@@ -33,7 +34,7 @@ export default function Navbar({ light }) {
           </li>
           <li className="nav-item pr-2">
             <a
-              className={light ? "nav-link dark a2" : "nav-link  a2"}
+              className={light ? "nav-link dark1 a2" : "nav-link a2"}
               href="#Projects"
             >
               Projects
@@ -41,7 +42,7 @@ export default function Navbar({ light }) {
           </li>
           <li className="nav-item pr-2">
             <a
-              className={light ? "nav-link dark a3" : "nav-link  a3"}
+              className={light ? "nav-link dark1 a3" : "nav-link a3"}
               href="#Cantact"
             >
               Contact
@@ -49,7 +50,7 @@ export default function Navbar({ light }) {
           </li>
           <li className="nav-item pr-2">
             <a
-              className={light ? "nav-link dark a4" : "nav-link  a4"}
+              className={light ? "nav-link dark1 a4" : "nav-link a4"}
               href="#HireMe"
             >
               Hire Me !
