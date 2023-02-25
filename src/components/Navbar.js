@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-
+import FormatListBulletedIcon from "@material-ui/icons/FormatListBulleted";
 export default function Navbar({ light }) {
   return (
     <nav
@@ -10,7 +10,18 @@ export default function Navbar({ light }) {
           : "navbar navbar-expand-lg navbar-light bg-light"
       }
     >
-      <div className="collapse navbar-collapse mr-5" id="navbarNav">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <FormatListBulletedIcon />
+      </button>
+      <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item pr-2 pl-5 active">
             <a
