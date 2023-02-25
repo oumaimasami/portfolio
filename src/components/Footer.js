@@ -6,8 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import git from "../images/git.png";
 export default function Footer() {
   return (
-    <div className="footer">
-      {" "}
+    <div className="footer container">
       <div className="row mt-3 pt-3 justify-content-center">
         <a href="https://www.facebook.com/oumaima.samiii" target="_blank">
           <FacebookIcon
