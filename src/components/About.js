@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import image from "../images/data.gif";
 import Candle from "./Candle";
 export default function About() {
   return (

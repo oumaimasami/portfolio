@@ -1,78 +1,73 @@
-    .center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 6rem !important;
-height: 63vh;
-
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6rem !important;
+  height: 63vh;
 }
-    .round-image {
-    width: 250px ;
-    height: 250px ;
-    border-radius: 125px;
-    -webkit-border-radius: 125px;
-    -moz-border-radius: 125px;
-    animation: bounce 0.5s;
-    animation-direction: alternate;
-    animation-timing-function: cubic-bezier(.5, 0.5, .5, .5);
-    animation-iteration-count: infinite;
-    box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
-   }
+.round-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.5, 0.5);
+  animation-iteration-count: infinite;
+  box-shadow: rgba(59, 59, 59, 0.35) 0px 5px 15px;
+}
 
-   .typed-text{
-    font-weight: bold;
-    font-size: 19px;
-    color: black ;
-    display: block;
-    text-align: -webkit-center;
-   }
-   .typed-text-dark{
-    font-weight: bold;
-    font-size: 19px;
-    color: white ;
-    display: block;
-    text-align: -webkit-center;
-   }
-   @keyframes bounce {
-    from {
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        transform: translate3d(0, 35px, 0);
-    }
+.typed-text {
+  font-weight: bold;
+  font-size: 19px;
+  color: black;
+  display: block;
+  text-align: -webkit-center;
+}
+.typed-text-dark {
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+  display: block;
+  text-align: -webkit-center;
+}
+@keyframes bounce {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 35px, 0);
+  }
 }
 /* Prefix Support */
-  
-    .round-image{
-    -webkit-animation-name: bounce;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-timing-function: cubic-bezier(
-    .5, 0.5, .5, .5);
-    -webkit-animation-iteration-count: infinite;
-}
-  
-    @-webkit-keyframes bounce {
-    from {
-        -webkit-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-    }
-    to {
-        -webkit-transform: translate3d(0, 200px, 0);
-        transform: translate3d(0, 35px, 0);
-    }
+
+.round-image {
+  -webkit-animation-name: bounce;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: cubic-bezier(0.5, 0.5, 0.5, 0.5);
+  -webkit-animation-iteration-count: infinite;
 }
 
-.sun{
-    width: 60px;
+@-webkit-keyframes bounce {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 200px, 0);
+    transform: translate3d(0, 35px, 0);
+  }
 }
-.moon{
-    width:40px;
-    height: 45px;
+
+.sun {
+  width: 60px;
 }
-.icon:hover{
-font-size: 45px !important;
+.moon {
+  width: 40px;
+  height: 45px;
 }
-.git{
-    width: 38px;
+.git {
+  width: 38px;
 }
