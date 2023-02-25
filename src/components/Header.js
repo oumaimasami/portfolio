@@ -20,7 +20,7 @@ export default function Header({ light }) {
           }
           strings={[
             "I'm a Full Stack Developer.",
-            "I'm a Business Intelligence Student.",
+            "I'm a BI Master degree Student.",
           ]}
           typeSpeed={40}
           backSpeed={50}

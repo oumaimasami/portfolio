@@ -57,19 +57,16 @@ nav a::after {
 nav a:hover::after {
   transform: scaleX(0.8);
 }
-@media (max-width: 684px) {
-  nav a {
-    font-size: 16px;
-  }
-  .navbar-nav {
-    background-color: #222222;
-  }
-}
 
 .dark1{
   background: #000 !important;
   color: white;
+  
 }
+.dark1 :hover{
+  color: white !important;
+}
+
 .light1{
   background: #4276EC ;
   color: white;
