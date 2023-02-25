@@ -12,7 +12,7 @@ export default function About() {
           </p>
           <a
             className="button"
-            href="https://drive.google.com/file/d/1xCmFEHzlKXygKmpSCg1m-TL3pZEoP5XK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1MXyTP_y1NV816L2lrKxKU6LZZgxoz6A2/view?usp=share_link"
           >
             CV
           </a>
