@@ -25,6 +25,7 @@ export default function Projects() {
           <a
             className="proj-button mx-2"
             href="https://www.youtube.com/watch?v=PgHIk_uaDd8"
+            target="_blank"
           >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo
@@ -47,6 +48,7 @@ export default function Projects() {
           <a
             className="proj-button mx-2"
             href="https://www.youtube.com/watch?v=zkRvq4Tbr14&t=9s"
+            target="_blank"
           >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo
@@ -75,6 +77,7 @@ export default function Projects() {
           <a
             className="proj-button mx-2"
             href="https://www.youtube.com/watch?v=2nV2NUvb17Y&t=13s"
+            target="_blank"
           >
             <YouTubeIcon style={{ fontSize: "30px", marginRight: "10px" }} />
             Demo

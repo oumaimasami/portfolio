@@ -80,25 +80,28 @@ export default function Cantact() {
             </div>
           </div>
           <div className="row justify-content-center cantact-end">
-            <a href="https://www.facebook.com/oumaima.samiii">
+            <a href="https://www.facebook.com/oumaima.samiii" target="_blank">
               <FacebookIcon
                 className="mx-2"
                 style={{ fontSize: "40px", color: "white" }}
               />
             </a>
-            <a href="https://www.instagram.com/oumaimasami_/">
+            <a href="https://www.instagram.com/oumaimasami_/" target="_blank">
               <InstagramIcon
                 className="mx-2"
                 style={{ fontSize: "40px", color: "white" }}
               />
             </a>
-            <a href="https://www.linkedin.com/in/oumaima-sami-568504187/">
+            <a
+              href="https://www.linkedin.com/in/oumaima-sami-568504187/"
+              target="_blank"
+            >
               <LinkedInIcon
                 className="mx-2"
                 style={{ fontSize: "40px", color: "white" }}
               />
             </a>
-            <a href="https://github.com/oumaimasami">
+            <a href="https://github.com/oumaimasami" target="_blank">
               <GitHubIcon
                 className="mx-2"
                 style={{ fontSize: "40px", color: "white" }}

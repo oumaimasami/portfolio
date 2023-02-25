@@ -9,25 +9,28 @@ export default function Footer() {
     <div className="footer">
       {" "}
       <div className="row mt-3 pt-3 justify-content-center">
-        <a href="https://www.facebook.com/oumaima.samiii">
+        <a href="https://www.facebook.com/oumaima.samiii" target="_blank">
           <FacebookIcon
             className="mx-2 icon"
             style={{ fontSize: "40px", color: "#3b5998" }}
           />
         </a>
-        <a href="https://www.instagram.com/oumaimasami_/">
+        <a href="https://www.instagram.com/oumaimasami_/" target="_blank">
           <InstagramIcon
             className="mx-2 icon"
             style={{ fontSize: "40px", color: "#E1306C" }}
           />
         </a>
-        <a href="https://www.linkedin.com/in/oumaima-sami-568504187/">
+        <a
+          href="https://www.linkedin.com/in/oumaima-sami-568504187/"
+          target="_blank"
+        >
           <LinkedInIcon
             className="mx-2 icon"
             style={{ fontSize: "40px", color: "#0077B5" }}
           />
         </a>
-        <a href="https://github.com/oumaimasami">
+        <a href="https://github.com/oumaimasami" target="_blank">
           <img className="mx-2 git" src={git} />
         </a>
       </div>
