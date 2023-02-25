@@ -5,7 +5,7 @@ import image1 from "../images/2.png";
 export default function HireMe() {
   const [clicked, setclicked] = useState(false);
   return (
-    <div className="container hire mt-5">
+    <div className="container hire mt-5" id="Hireme">
       <div className="row">
         <div className="col-4 ">
           {clicked ? (

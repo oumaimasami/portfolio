@@ -51,7 +51,7 @@ export default function Navbar({ light }) {
           <li className="nav-item pr-2">
             <a
               className={light ? "nav-link dark1 a4" : "nav-link a4"}
-              href="#HireMe"
+              href="#Hireme"
             >
               Hire Me !
             </a>
