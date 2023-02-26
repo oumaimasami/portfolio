@@ -3,8 +3,11 @@ import "./hireme.css";
 import emailjs from "@emailjs/browser";
 import image from "../images/1.png";
 import image1 from "../images/2.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function HireMe() {
   const [clicked, setclicked] = useState(false);
+  const notify = () => toast("thank you, i will call you soon :)");
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -52,11 +55,15 @@ export default function HireMe() {
           </div>
           <button
             className="btn HireButton py-2"
-            onClick={() => setclicked(true)}
+            onClick={() => {
+              setclicked(true);
+              notify();
+            }}
             type="submit"
           >
             Hire me !
           </button>
+          <ToastContainer />
         </form>
       </div>
     </div>

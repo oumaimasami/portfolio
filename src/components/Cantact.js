@@ -8,12 +8,13 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 export default function Cantact() {
   const form = useRef();
-
+  const notify = () => toast("your message sent");
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_r72yvus",
@@ -78,9 +79,10 @@ export default function Cantact() {
               name="message"
             ></textarea>
           </div>
-          <button type="submit" className="btn button-contact">
+          <button type="submit" className="btn button-contact" onClick={notify}>
             Send Message
           </button>
+          <ToastContainer />
         </form>
         <div className="card informations col-lg-4 col-sm-12 col-md-12  my-2 pl-2">
           <h2 className="mt-5 mx-5 ">Contact me</h2>
