@@ -35,3 +35,17 @@
 .cantact-end{
     padding-top: 5rem;
 }
+
+
+@media screen and (max-width: 991px) {
+  
+    .cantact-end{
+        padding-bottom: 3rem;
+    }
+    .text-cantact{
+        font-size: 20px;
+    }
+    .button-contact{
+        margin-bottom: 2rem;
+    }
+  }

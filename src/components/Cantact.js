@@ -18,7 +18,7 @@ export default function Cantact() {
             </label>
             <input
               type="email"
-              className="form-control col-10"
+              className="form-control col-12"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
@@ -28,7 +28,7 @@ export default function Cantact() {
               Type of project you need me for :
             </label>
             <select
-              className="form-control col-10"
+              className="form-control col-12"
               id="exampleFormControlSelect1"
             >
               <option>Freelance</option>
@@ -43,7 +43,7 @@ export default function Cantact() {
               Ask me a question :)
             </label>
             <textarea
-              className="form-control col-10"
+              className="form-control col-12"
               id="exampleFormControlTextarea1"
               placeholder="Message .."
               rows="4"
