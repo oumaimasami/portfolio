@@ -36,7 +36,7 @@ function App() {
       <About />
       <Cantact />
       <HireMe />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

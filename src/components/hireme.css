@@ -22,7 +22,6 @@
   .form-group{
     font-size: 19px;
     font-weight: 500;
-    width: 580px;
   }
   .hire-image{
     width:300px;
@@ -33,3 +32,22 @@
     margin-left: 1.7rem;
   }
   
+
+  @media screen and (max-width: 991px) {
+    .hire {
+     height: 120vh; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .hire-image{
+      width:250px;
+      margin-top: 13rem;
+      padding-top: 13rem;
+      margin-left: 5rem;
+    }
+    .hire-image1{
+      width:210px;
+      margin-top: 14rem;
+      padding-top: 14rem;
+      margin-left: 6rem;
+    }
+
+  }
