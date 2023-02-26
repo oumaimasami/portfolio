@@ -1,13 +1,9 @@
 .footer{
-    height: 30vh;
+    height: 50vh;
 }
 @media screen and (max-width: 991px) {
     .footer {
         margin-top: 7rem;
         padding-top: 7rem;
      }
-    .resp-text {
-        padding-bottom: 3rem !important;
-    }
-
   }
