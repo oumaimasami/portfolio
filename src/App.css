@@ -1,14 +1,14 @@
-.dark{
-    background-color: #222222;
-    color: white;
-    background-image: url("../src/images/back.png");
-    background-repeat:no-repeat;
-    background-size: cover;
+.dark {
+  background-color: #222222;
+  color: white;
+  background-image: url("../src/images/back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.light{
-    background-color: #FFF;
-    color: #222222;
-    background-image: url("../src/images/back2.jpg");
-    background-repeat:no-repeat;
-    background-size: cover;
+.light {
+  background-color: #fff;
+  color: white;
+  background-image: url("../src/images/back2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

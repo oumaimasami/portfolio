@@ -13,11 +13,7 @@ export default function Header({ light }) {
       <div className="row center">
         <img className="round-image" src={image} alt="." />
         <Typed
-          className={
-            light
-              ? "col-12 mt-5 pt-4 typed-text-dark"
-              : "col-12 mt-5 pt-4 typed-text"
-          }
+          className={"col-12 mt-5 pt-4 typed-text-dark"}
           strings={[
             "I'm a Full Stack Developer.",
             "I'm a BI Master degree Student.",

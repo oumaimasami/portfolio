@@ -34,7 +34,7 @@ function App() {
       </div>
       <Header light={light} />
       <About />
-      <Projects />
+      <Projects light={light} />
       <Cantact />
       <HireMe />
       <Footer />

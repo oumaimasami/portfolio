@@ -8,7 +8,9 @@
   text-decoration: none !important;
   margin-left: 40px !important;
 }
-
+.nav-link {
+  color: white !important;
+}
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -58,17 +60,14 @@ nav a:hover::after {
   transform: scaleX(0.8);
 }
 
-.dark1{
+.dark1 {
   background: #000 !important;
   color: white;
-  
 }
-.dark1 :hover{
+.dark1 :hover {
   color: white !important;
 }
 
-.light1{
-  background: #4276EC ;
-  color: white;
+.light1 {
+  background: #4276ec;
 }
-

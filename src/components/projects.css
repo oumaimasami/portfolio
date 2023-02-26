@@ -1,9 +1,19 @@
 .projects {
   margin-bottom: 10em;
 }
-
+.lightinfo {
+  background: #fff !important;
+  padding: 45px !important;
+  color: black;
+}
+.darkinfo {
+  background: transparent !important;
+  padding: 45px !important;
+  color: white !important;
+}
 .proj-image1 {
   width: 500px;
+  padding-top: 3rem;
   padding-bottom: 2.5rem;
   cursor: default !important;
 }

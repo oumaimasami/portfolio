@@ -34,7 +34,7 @@ export default function Footer() {
         </a>
       </div>
       <h6 className="text-center resp-text mt-5">
-        © Copyyright Oumaimasami 2022
+        © Copyright Oumaimasami 2022
       </h6>
     </div>
   );
