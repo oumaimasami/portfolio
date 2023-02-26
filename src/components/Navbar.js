@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import FormatListBulletedIcon from "@material-ui/icons/FormatListBulleted";
+// import FormatListBulletedIcon from "@material-ui/icons/FormatListBulleted";
 export default function Navbar({ light }) {
   return (
     <nav

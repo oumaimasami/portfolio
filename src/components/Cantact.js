@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./cantact.css";
 import PersonPinIcon from "@material-ui/icons/PersonPin";
 import EmailSharpIcon from "@material-ui/icons/EmailSharp";
@@ -8,10 +9,35 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 export default function Cantact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_r72yvus",
+        "template_6kuh8wl",
+        form.current,
+        "2BCE8pznkONmSs6JL"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="container mb-5 pb-5">
       <div className=" row contact" id="Cantact">
-        <form className="col-lg-6 col-sm-12 col-md-12 card form1 my-5">
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="col-lg-6 col-sm-12 col-md-12 card form1 my-5"
+        >
           <div className="form-group mt-5 mb-3">
             <label className="mx-1" for="exampleFormControlInput1 pt-2">
               Email
@@ -21,6 +47,7 @@ export default function Cantact() {
               className="form-control col-12"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
+              name="user_email"
             />
           </div>
           <div className="form-group my-2">
@@ -30,6 +57,7 @@ export default function Cantact() {
             <select
               className="form-control col-12"
               id="exampleFormControlSelect1"
+              name="typeofproject"
             >
               <option>Freelance</option>
               <option>Frontend (React JS, React Native)</option>
@@ -47,6 +75,7 @@ export default function Cantact() {
               id="exampleFormControlTextarea1"
               placeholder="Message .."
               rows="4"
+              name="message"
             ></textarea>
           </div>
           <button type="submit" className="btn button-contact">
