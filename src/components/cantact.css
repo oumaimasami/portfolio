@@ -1,51 +1,53 @@
-.contact{
-    height: 90vh ;
-    display: flex;
-    justify-content: center;
+.contact {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
 }
-.form1{
-    color: black !important;
+.form1 {
+  color: black !important;
 }
-.button-contact{
-    width: 140px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: #0077B5 !important;
-    border-color: #0077B5;
-    text-align: center;
-    color: white !important;
-    border-radius: 10px;
-    cursor: pointer;
+.button-contact {
+  width: 140px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #0077b5 !important;
+  border-color: #0077b5;
+  text-align: center;
+  color: white !important;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.button-contact:hover{
-    background-color: white !important;
-    border:1px solid #0077B5 !important;
-    color: #0077B5 !important;
+.button-contact:hover {
+  background-color: white !important;
+  border: 1px solid #0077b5 !important;
+  color: #0077b5 !important;
 }
-.informations{
-    background: #0077B5 !important;
-    color: white;
+.informations {
+  background: #0077b5 !important;
+  color: white;
 }
-.bold{
-    font-weight: bolder;
+.bold {
+  font-weight: bolder;
 }
-.text-cantact{
-    font-size: 18px;
+.text-cantact {
+  font-size: 18px;
 }
-.cantact-end{
-    padding-top: 5rem;
+.cantact-end {
+  padding-top: 5rem;
 }
-
 
 @media screen and (max-width: 991px) {
-  
-    .cantact-end{
-        padding-bottom: 3rem;
-    }
-    .text-cantact{
-        font-size: 20px;
-    }
-    .button-contact{
-        margin-bottom: 2rem;
-    }
+  .cantact-end {
+    padding-bottom: 3rem;
   }
+  .text-cantact {
+    font-size: 20px;
+  }
+  .button-contact {
+    margin-bottom: 2rem;
+  }
+  .form1,
+  .informations {
+    width: 96% !important;
+  }
+}
