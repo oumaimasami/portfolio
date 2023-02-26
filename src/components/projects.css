@@ -1,44 +1,38 @@
-.projects{
-    margin-bottom: 10em;
+.projects {
+  margin-bottom: 10em;
 }
 
-.proj-image1{
-    width:500px;
-	padding-bottom: 2.5rem;
-	cursor :default !important;
+.proj-image1 {
+  width: 500px;
+  padding-bottom: 2.5rem;
+  cursor: default !important;
 }
 
-
-.proj-descp{
-    font-size: 18px;
-    text-align: start;
-    cursor: default;
-    
+.proj-descp {
+  font-size: 18px;
+  text-align: start;
+  cursor: default;
 }
 
-.proj-button{
-text-decoration: none !important;
-padding-left: 30px;
-padding-right: 30px;
-font-weight: bold;
-padding-top: 12px;
-padding-bottom: 12px;
-text-align: center;
-background-color: #FF0000;
-color: white;
-border-radius: 12px;
-font-size: 19px;
-}
-.proj-button:hover{
-text-decoration: none !important;
-background-color: white;
-border: 1px solid #FF0000;
-color: #FF0000;
-cursor: pointer;
+.proj-info {
+  text-align: -webkit-center;
 }
 
-.proj-info{
-    text-align: -webkit-center;
+@media (max-width: 991px) {
+  .proj-image1 {
+    width: 400px;
+  }
+  .projects {
+    margin-top: 5rem;
+  }
+  .project {
+    background: #fff;
+    color: black;
+    width: 98%;
+    margin-left: 8px !important;
+  }
+  .proj-descp {
+    font-size: 17px;
+    margin-bottom: 10px !important;
+  }
 }
-
-  
