@@ -11,23 +11,26 @@ export default function Cantact() {
   return (
     <div className="container mb-5 pb-5">
       <div className=" row contact" id="Cantact">
-        <form className="col-6 card form1 my-5">
+        <form className="col-lg-6 col-sm-12 col-md-12 card form1 my-5">
           <div className="form-group mt-5 mb-3">
             <label className="mx-1" for="exampleFormControlInput1 pt-2">
               Email
             </label>
             <input
               type="email"
-              className="form-control"
+              className="form-control col-10"
               id="exampleFormControlInput1"
               placeholder="name@example.com"
             />
           </div>
           <div className="form-group my-2">
             <label className="mx-1" for="exampleFormControlSelect1">
-              Type of project you need for :
+              Type of project you need me for :
             </label>
-            <select className="form-control" id="exampleFormControlSelect1">
+            <select
+              className="form-control col-10"
+              id="exampleFormControlSelect1"
+            >
               <option>Freelance</option>
               <option>Frontend (React JS, React Native)</option>
               <option>Backend (NodeJS,ExpressJS)</option>
@@ -40,7 +43,7 @@ export default function Cantact() {
               Ask me a question :)
             </label>
             <textarea
-              className="form-control"
+              className="form-control col-10"
               id="exampleFormControlTextarea1"
               placeholder="Message .."
               rows="4"
@@ -50,7 +53,7 @@ export default function Cantact() {
             Send Message
           </button>
         </form>
-        <div className="card informations col-4  my-2 pl-2">
+        <div className="card informations col-lg-4 col-sm-12 col-md-12  my-2 pl-2">
           <h2 className="mt-5 mx-5 ">Contact me</h2>
           <div className="row">
             <PersonPinIcon

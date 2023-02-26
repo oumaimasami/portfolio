@@ -2,7 +2,6 @@
     height: 90vh ;
     display: flex;
     justify-content: center;
-  
 }
 .form1{
     color: black !important;
@@ -11,17 +10,17 @@
     width: 140px;
     padding-top: 8px;
     padding-bottom: 8px;
-    background-color: #0077B5;
+    background-color: #0077B5 !important;
     border-color: #0077B5;
     text-align: center;
-    color: white;
+    color: white !important;
     border-radius: 10px;
     cursor: pointer;
 }
 .button-contact:hover{
-    background-color: white;
-    border:1px solid #0077B5;
-    color: #0077B5;
+    background-color: white !important;
+    border:1px solid #0077B5 !important;
+    color: #0077B5 !important;
 }
 .informations{
     background: #0077B5 !important;

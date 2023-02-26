@@ -10,7 +10,7 @@ export default function Navbar({ light }) {
           : "navbar navbar-expand-lg navbar-light light1"
       }
     >
-      <button
+      {/* <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -20,7 +20,7 @@ export default function Navbar({ light }) {
         aria-label="Toggle navigation"
       >
         <FormatListBulletedIcon />
-      </button>
+      </button> */}
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav">

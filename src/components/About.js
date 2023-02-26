@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="container">
       <div className="About row mt-5" id="About">
-        <div className="col-6">
+        <div className="col-lg-6 col-sm-12 col-md-12">
           <p className="resume m-5 ">
             Welcome to my portfolio ,check my CV and the projects I've worked on
             below , feel free to cantact me.
@@ -18,7 +18,7 @@ export default function About() {
             CV
           </a>
         </div>
-        <div className="col-6">
+        <div className="col-lg-6 col-sm-12 col-md-12">
           <Candle />
         </div>
       </div>
