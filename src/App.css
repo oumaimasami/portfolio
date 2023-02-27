@@ -17,7 +17,16 @@ input[type="checkbox"] {
   display: none;
 }
 
-#button {
+#button-dark {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: #585858;
+  border-radius: 350px;
+  cursor: pointer;
+  transform: scale(0.4);
+}
+#button-light {
   display: block;
   width: 200px;
   height: 100px;
@@ -58,7 +67,8 @@ input[type="checkbox"] {
   margin-left: 30px;
 }
 
-#lol-checkbox:checked + #button #knob {
+#lol-checkbox:checked + #button-dark #knob,
+#lol-checkbox:checked + #button-light #knob {
   left: 92px;
   background-position: -120px 0;
 }

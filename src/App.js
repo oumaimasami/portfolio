@@ -20,15 +20,27 @@ function App() {
       <div className="d-flex justify-content-space-between ">
         <div className="d-flex col-6 justify-content-start ">
           <input type="checkbox" id="lol-checkbox" />
-          <label
-            id="button"
-            for="lol-checkbox"
-            onClick={() => setlanguage(!english)}
-          >
-            <div id="knob"></div>
-            <div id="subscribe">FR</div>
-            <div id="alright">EN</div>
-          </label>
+          {light ? (
+            <label
+              id="button-dark"
+              for="lol-checkbox"
+              onClick={() => setlanguage(!english)}
+            >
+              <div id="knob"></div>
+              <div id="subscribe">FR</div>
+              <div id="alright">EN</div>
+            </label>
+          ) : (
+            <label
+              id="button-light"
+              for="lol-checkbox"
+              onClick={() => setlanguage(!english)}
+            >
+              <div id="knob"></div>
+              <div id="subscribe">FR</div>
+              <div id="alright">EN</div>
+            </label>
+          )}
         </div>
         <div className="d-flex col-6 justify-content-end ">
           {light ? (
