@@ -1,11 +1,9 @@
 .footer {
   height: 30vh;
-  color: black;
 }
-@media screen and (max-width: 991px) {
-  .footer {
-    margin-top: 10rem;
-    padding-top: 7rem;
-    height: 50vh;
-  }
+.text-light {
+  color: #fff;
+}
+.text-dark {
+  color: #000;
 }

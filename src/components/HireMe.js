@@ -31,8 +31,8 @@ export default function HireMe({ english }) {
       );
   };
   return (
-    <div className="container hire" id="Hireme">
-      <div className="row mt-3 pt-3 justify-content-center">
+    <div className="container hire mb-5 pb-5" id="Hireme">
+      <div className="row my-3 py-3 justify-content-center">
         <div className="col-lg-4 col-md-12 col-sm-12">
           {clicked ? (
             <img className="hire-image1" src={image1} alt="." />

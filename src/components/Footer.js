@@ -4,7 +4,7 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import git from "../images/git.png";
-export default function Footer() {
+export default function Footer({ light }) {
   return (
     <div className="footer container">
       <div className="row mt-3 pt-3 justify-content-center">
@@ -33,9 +33,15 @@ export default function Footer() {
           <img className="mx-2 git" src={git} />
         </a>
       </div>
-      <h6 className="text-center resp-text mt-5">
-        © Copyright Oumaimasami 2022
-      </h6>
+      {light ? (
+        <h6 className="text-center text-light mt-5">
+          © Copyright Oumaimasami 2022
+        </h6>
+      ) : (
+        <h6 className="text-center text-dark mt-5">
+          © Copyright Oumaimasami 2022
+        </h6>
+      )}
     </div>
   );
 }

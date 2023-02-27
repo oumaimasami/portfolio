@@ -85,7 +85,7 @@ export default function Cantact({ english }) {
               </label>
             )}
             <textarea
-              className="form-control col-12"
+              className="form-control text-message col-12"
               id="exampleFormControlTextarea1"
               placeholder="Message .."
               rows="4"

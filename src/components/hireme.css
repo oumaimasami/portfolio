@@ -1,53 +1,44 @@
-.hire{
-    height: 70vh;
+.hire {
+  display: block !important;
 }
 .HireButton {
-    background-color: #4ebbfa !important;
-    width: 170px;
-    border: #4ebbfa;
-    border-radius: 13px ;
-    color: white !important;
-    font-size: 21px !important;
-    font-weight: bold !important;
-    box-shadow: 0 0 40px 40px #4ebbfa inset, 0 0 0 0 #4ebbfa;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
-  }
-  .HireButton:hover {
-    box-shadow: 0 0 10px 0 #4ebbfa inset, 0 0 10px 4px #4ebbfa;
-    background-color: white !important;
-    color: #4ebbfa !important;
-  }
+  background-color: #4ebbfa !important;
+  width: 170px;
+  border: #4ebbfa;
+  border-radius: 13px;
+  color: white !important;
+  font-size: 21px !important;
+  font-weight: bold !important;
+  box-shadow: 0 0 40px 40px #4ebbfa inset, 0 0 0 0 #4ebbfa;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.HireButton:hover {
+  box-shadow: 0 0 10px 0 #4ebbfa inset, 0 0 10px 4px #4ebbfa;
+  background-color: white !important;
+  color: #4ebbfa !important;
+}
 
-  .form-group{
-    font-size: 19px;
-    font-weight: 500;
-  }
-  .hire-image{
-    width:300px;
-  }
-  .hire-image1{
-    width:260px;
-    margin-top: 2.6rem;
-    margin-left: 1.7rem;
-  }
-  
+.form-group {
+  font-size: 19px;
+  font-weight: 500;
+}
+.hire-image {
+  width: 300px;
+}
+.hire-image1 {
+  width: 260px;
+  margin-top: 2.6rem;
+  margin-left: 1.7rem;
+}
 
-  @media screen and (max-width: 991px) {
-    .hire {
-     height: 120vh; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-    .hire-image{
-      width:250px;
-      margin-top: 15rem;
-      padding-top: 15rem;
-      margin-left: 5rem;
-    }
-    .hire-image1{
-      width:210px;
-      margin-top: 16rem;
-      padding-top: 16rem;
-      margin-left: 6rem;
-    }
-
+@media screen and (max-width: 991px) {
+  .hire-image {
+    width: 250px;
+    margin-left: 5rem;
   }
+  .hire-image1 {
+    width: 210px;
+    margin-left: 6rem;
+  }
+}

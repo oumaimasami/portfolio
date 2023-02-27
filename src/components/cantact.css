@@ -1,7 +1,9 @@
 .contact {
-  height: 90vh;
-  display: flex;
+  display: block;
   justify-content: center;
+}
+.text-message {
+  display: block !important;
 }
 .form1 {
   color: black !important;

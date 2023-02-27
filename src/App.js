@@ -27,8 +27,12 @@ function App() {
               onClick={() => setlanguage(!english)}
             >
               <div id="knob"></div>
-              <div id="subscribe">EN</div>
-              <div id="alright">FR</div>
+              <div className="text-light" id="subscribe">
+                EN
+              </div>
+              <div className="text-light" id="alright">
+                FR
+              </div>
             </label>
           ) : (
             <label
@@ -37,8 +41,12 @@ function App() {
               onClick={() => setlanguage(!english)}
             >
               <div id="knob"></div>
-              <div id="subscribe">EN</div>
-              <div id="alright">FR</div>
+              <div className="text-dark" id="subscribe">
+                EN
+              </div>
+              <div className="text-dark" id="alright">
+                FR
+              </div>
             </label>
           )}
         </div>
@@ -65,7 +73,7 @@ function App() {
       <Projects english={english} light={light} />
       <Cantact english={english} />
       <HireMe english={english} />
-      <Footer english={english} />
+      <Footer light={light} />
     </div>
   );
 }
