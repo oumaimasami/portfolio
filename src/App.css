@@ -25,6 +25,7 @@ input[type="checkbox"] {
   border-radius: 350px;
   cursor: pointer;
   transform: scale(0.4);
+  margin-left: -2rem;
 }
 #button-light {
   display: block;
@@ -34,6 +35,7 @@ input[type="checkbox"] {
   border-radius: 350px;
   cursor: pointer;
   transform: scale(0.4);
+  margin-left: -2rem;
 }
 
 #knob {
