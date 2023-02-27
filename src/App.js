@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   const [light, setlight] = useState(false);
-  const [english, setlanguage] = useState(false);
+  const [english, setlanguage] = useState(true);
   return (
     <div className={light ? "dark" : "light"}>
       <Navbar light={light} english={english} />
@@ -27,8 +27,8 @@ function App() {
               onClick={() => setlanguage(!english)}
             >
               <div id="knob"></div>
-              <div id="subscribe">FR</div>
-              <div id="alright">EN</div>
+              <div id="subscribe">EN</div>
+              <div id="alright">FR</div>
             </label>
           ) : (
             <label
@@ -37,8 +37,8 @@ function App() {
               onClick={() => setlanguage(!english)}
             >
               <div id="knob"></div>
-              <div id="subscribe">FR</div>
-              <div id="alright">EN</div>
+              <div id="subscribe">EN</div>
+              <div id="alright">FR</div>
             </label>
           )}
         </div>
