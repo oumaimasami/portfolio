@@ -12,32 +12,53 @@ import Footer from "./components/Footer";
 
 function App() {
   const [light, setlight] = useState(false);
+  const [english, setlanguage] = useState(false);
   return (
     <div className={light ? "dark" : "light"}>
       <Navbar light={light} />
-      <div className="d-flex justify-content-end ">
-        {light ? (
-          <img
-            className="sun m-3"
-            src={sun}
-            alt="."
-            onClick={() => setlight(false)}
-          />
-        ) : (
-          <img
-            className="moon m-4"
-            src={moon}
-            alt="."
-            onClick={() => setlight(true)}
-          />
-        )}
+
+      <div className="d-flex justify-content-space-between ">
+        <div className="d-flex col-6 justify-content-start ">
+          {english ? (
+            <img
+              className="sun m-3"
+              src={sun}
+              alt="."
+              onClick={() => setlanguage(false)}
+            />
+          ) : (
+            <img
+              className="moon m-4"
+              src={moon}
+              alt="."
+              onClick={() => setlanguage(true)}
+            />
+          )}
+        </div>
+        <div className="d-flex col-6 justify-content-end ">
+          {light ? (
+            <img
+              className="sun m-3"
+              src={sun}
+              alt="."
+              onClick={() => setlight(false)}
+            />
+          ) : (
+            <img
+              className="moon m-4"
+              src={moon}
+              alt="."
+              onClick={() => setlight(true)}
+            />
+          )}
+        </div>
       </div>
-      <Header light={light} />
-      <About />
-      <Projects light={light} />
-      <Cantact />
-      <HireMe />
-      <Footer />
+      <Header language={english} light={light} />
+      <About language={english} />
+      <Projects language={english} light={light} />
+      <Cantact language={english} />
+      <HireMe language={english} />
+      <Footer language={english} />
     </div>
   );
 }
