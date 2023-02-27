@@ -10,9 +10,10 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-export default function Cantact() {
+export default function Cantact({ english }) {
   const form = useRef();
-  const notify = () => toast("your message sent");
+  const notify = () => toast("message sent");
+  const notifyFR = () => toast("message envoyé");
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
@@ -52,9 +53,15 @@ export default function Cantact() {
             />
           </div>
           <div className="form-group my-2">
-            <label className="mx-1" for="exampleFormControlSelect1">
-              Type of project you need me for :
-            </label>
+            {english ? (
+              <label className="mx-1" for="exampleFormControlSelect1">
+                Type of project you need me for :
+              </label>
+            ) : (
+              <label className="mx-1" for="exampleFormControlSelect1">
+                Type de projet que vous souhaitez :
+              </label>
+            )}
             <select
               className="form-control col-12"
               id="exampleFormControlSelect1"
@@ -68,9 +75,15 @@ export default function Cantact() {
           </div>
 
           <div className="form-group my-4">
-            <label className="mx-1" for="exampleFormControlTextarea1">
-              Ask me a question :)
-            </label>
+            {english ? (
+              <label className="mx-1" for="exampleFormControlTextarea1">
+                Ask me a question :)
+              </label>
+            ) : (
+              <label className="mx-1" for="exampleFormControlTextarea1">
+                Posez-moi une question :)
+              </label>
+            )}
             <textarea
               className="form-control col-12"
               id="exampleFormControlTextarea1"
@@ -79,20 +92,43 @@ export default function Cantact() {
               name="message"
             ></textarea>
           </div>
-          <button type="submit" className="btn button-contact" onClick={notify}>
-            Send Message
-          </button>
+          {english ? (
+            <button
+              type="submit"
+              className="btn button-contact"
+              onClick={notify}
+            >
+              Send
+            </button>
+          ) : (
+            <button
+              type="submit"
+              className="btn button-contact"
+              onClick={notifyFR}
+            >
+              Envoyer
+            </button>
+          )}
           <ToastContainer />
         </form>
         <div className="card informations col-lg-4 col-sm-12 col-md-12  my-2 pl-2">
-          <h2 className="mt-5 mx-5 ">Contact me</h2>
+          {english ? (
+            <h2 className="mt-5 mx-5 ">Contact me</h2>
+          ) : (
+            <h2 className="mt-5 mx-5 ">Contactez moi</h2>
+          )}
           <div className="row">
             <PersonPinIcon
               style={{ fontSize: "55px" }}
               className="ml-4 mt-5 col-2"
             />
             <div className="text-cantact col-7 mt-2 pt-5">
-              <span className="bold">Adress : </span> beb souika TUNIS 1006
+              {english ? (
+                <span className="bold">Adress : </span>
+              ) : (
+                <span className="bold">Adresse : </span>
+              )}
+              beb souika TUNIS 1006
             </div>
           </div>
           <div className="row">
@@ -110,7 +146,12 @@ export default function Cantact() {
               className="ml-4 mt-4 pt-3 col-2"
             />
             <div className="text-cantact col-7 mt-4 pt-3">
-              <span className="bold">Phone : </span> +216 90442724
+              {english ? (
+                <span className="bold">Phone : </span>
+              ) : (
+                <span className="bold">Téléphone : </span>
+              )}
+              +216 90442724
             </div>
           </div>
           <div className="row justify-content-center cantact-end">
