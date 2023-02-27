@@ -73,3 +73,9 @@ input[type="checkbox"] {
   left: 92px;
   background-position: -120px 0;
 }
+.text-light {
+  color: #fff;
+}
+.text-dark {
+  color: #000;
+}
