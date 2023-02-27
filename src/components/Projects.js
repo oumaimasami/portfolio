@@ -13,7 +13,7 @@ export default function Projects({ light, english }) {
         <h1 className="pl-5 ml-2 mt-2">Mes Projets</h1>
       )}
       <div className=" project my-5 py-4 row">
-        <figure className=" proj-image col-lg-6 col-md-10 col-sm-10">
+        <figure className=" proj-image col-lg-6 col-md-10 col-sm-8">
           <img className="proj-image1" src={image1} alt="." />
         </figure>
         <div
@@ -90,12 +90,12 @@ export default function Projects({ light, english }) {
             </p>
           )}
         </div>
-        <figure className="col-lg-6 col-md-10 col-sm-10 proj-image">
+        <figure className="col-lg-6 col-md-10 col-sm-8 proj-image">
           <img className="proj-image1" src={image2} alt="." />
         </figure>
       </div>
       <div className=" project my-5 py-4 row">
-        <figure className="col-lg-6 col-md-10 col-sm-10 proj-image">
+        <figure className="col-lg-6 col-md-10 col-sm-8 proj-image">
           <img className="proj-image1" src={image3} alt="." />
         </figure>
         <div
