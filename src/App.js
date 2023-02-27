@@ -5,8 +5,6 @@ import Header from "./components/Header";
 import Projects from "./components/Projects";
 import sun from "./images/sun.png";
 import moon from "./images/moon.png";
-import en from "./images/EN.png";
-import fr from "./images/FR.png";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import HireMe from "./components/HireMe";
@@ -21,21 +19,16 @@ function App() {
 
       <div className="d-flex justify-content-space-between ">
         <div className="d-flex col-6 justify-content-start ">
-          {english ? (
-            <img
-              className="sun m-3"
-              src={en}
-              alt="."
-              onClick={() => setlanguage(false)}
-            />
-          ) : (
-            <img
-              className="moon m-4"
-              src={fr}
-              alt="."
-              onClick={() => setlanguage(true)}
-            />
-          )}
+          <input type="checkbox" id="lol-checkbox" />
+          <label
+            id="button"
+            for="lol-checkbox"
+            onClick={() => setlanguage(!english)}
+          >
+            <div id="knob"></div>
+            <div id="subscribe">FR</div>
+            <div id="alright">EN</div>
+          </label>
         </div>
         <div className="d-flex col-6 justify-content-end ">
           {light ? (

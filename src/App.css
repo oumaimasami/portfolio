@@ -12,3 +12,53 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+input[type="checkbox"] {
+  display: none;
+}
+
+#button {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 350px;
+  cursor: pointer;
+  transform: scale(0.4);
+}
+
+#knob {
+  width: 100px;
+  height: 90px;
+  background-image: url("./images/ENFR.png");
+  background-repeat: no-repeat;
+  background-size: 220px;
+  position: relative;
+  top: 8px;
+  left: 10px;
+  border-radius: 290px;
+  transition: 0.4s ease left, 0.4s ease background-position;
+  z-index: 2;
+}
+
+#subscribe,
+#alright {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 110px;
+  z-index: 1;
+}
+
+#alright {
+  margin-left: 30px;
+}
+
+#lol-checkbox:checked + #button #knob {
+  left: 92px;
+  background-position: -120px 0;
+}
