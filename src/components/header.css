@@ -69,5 +69,11 @@
   height: 45px;
 }
 .git {
-  width: 38px;
+  width: 36px;
+  margin-top: -13px;
+}
+.icon-page {
+  font-size: 31px;
+  color: black;
+  margin-right: 10px;
 }

@@ -2,9 +2,6 @@ import React from "react";
 import "./header.css";
 import Typed from "react-typed";
 import image from "../images/ouma.jpg";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
 import git from "../images/git.png";
 
 export default function Header({ light, english }) {
@@ -35,44 +32,37 @@ export default function Header({ light, english }) {
             loop
           />
         )}
-        <div className="row mt-3 pt-3 justify-content-center">
-          <a
-            href="https://www.facebook.com/oumaima.samiii"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FacebookIcon
-              className="mx-2 icon"
-              style={{ fontSize: "40px", color: "#3b5998" }}
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/oumaimasami_/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <InstagramIcon
-              className="mx-2 icon"
-              style={{ fontSize: "40px", color: "#E1306C" }}
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/oumaima-sami-568504187/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedInIcon
-              className="mx-2 icon"
-              style={{ fontSize: "40px", color: "#0077B5" }}
-            />
-          </a>
-          <a
-            href="https://github.com/oumaimasami"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img className="mx-2 git" src={git} alt="..." />
-          </a>
+        <div className="row mt-3 pt-3 justify-content-center text-center">
+          <div className="col justify-content-center">
+            <a
+              href="https://www.facebook.com/oumaima.samiii"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-facebook icon-page"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/oumaimasami_/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-instagram icon-page"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/oumaima-sami-568504187/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="bi bi-linkedin icon-page"></i>
+            </a>
+            <a
+              href="https://github.com/oumaimasami"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img className="git" src={git} alt="..." />
+            </a>
+          </div>
         </div>
       </div>
     </div>

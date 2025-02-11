@@ -71,7 +71,6 @@ function App() {
       <Header english={english} light={light} />
       <About english={english} />
       <Projects english={english} light={light} />
-      <Cantact english={english} />
       <HireMe english={english} />
       <Footer light={light} />
     </div>

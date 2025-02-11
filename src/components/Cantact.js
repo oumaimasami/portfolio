@@ -1,13 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./cantact.css";
-import PersonPinIcon from "@material-ui/icons/PersonPin";
-import EmailSharpIcon from "@material-ui/icons/EmailSharp";
-import PhoneSharpIcon from "@material-ui/icons/PhoneSharp";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import GitHubIcon from "@material-ui/icons/GitHub";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export default function Cantact({ english }) {
@@ -118,10 +111,6 @@ export default function Cantact({ english }) {
             <h2 className="mt-5 mx-5 ">Contactez moi</h2>
           )}
           <div className="row">
-            <PersonPinIcon
-              style={{ fontSize: "55px" }}
-              className="ml-4 mt-5 col-2"
-            />
             <div className="text-cantact col-7 mt-2 pt-5">
               {english ? (
                 <span className="bold">Adress : </span>
@@ -132,19 +121,11 @@ export default function Cantact({ english }) {
             </div>
           </div>
           <div className="row">
-            <EmailSharpIcon
-              style={{ fontSize: "42px" }}
-              className="ml-4 mt-4 pt-3 col-2"
-            />
             <div className="text-cantact col-6 mt-4 pt-3">
               <span className="bold">Email : </span>samioumaima433@gmail.com
             </div>
           </div>
           <div className="row">
-            <PhoneSharpIcon
-              style={{ fontSize: "42px" }}
-              className="ml-4 mt-4 pt-3 col-2"
-            />
             <div className="text-cantact col-7 mt-4 pt-3">
               {english ? (
                 <span className="bold">Phone : </span>
@@ -153,35 +134,6 @@ export default function Cantact({ english }) {
               )}
               +216 90442724
             </div>
-          </div>
-          <div className="row justify-content-center cantact-end">
-            <a href="https://www.facebook.com/oumaima.samiii" target="_blank">
-              <FacebookIcon
-                className="mx-2"
-                style={{ fontSize: "40px", color: "white" }}
-              />
-            </a>
-            <a href="https://www.instagram.com/oumaimasami_/" target="_blank">
-              <InstagramIcon
-                className="mx-2"
-                style={{ fontSize: "40px", color: "white" }}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/oumaima-sami-568504187/"
-              target="_blank"
-            >
-              <LinkedInIcon
-                className="mx-2"
-                style={{ fontSize: "40px", color: "white" }}
-              />
-            </a>
-            <a href="https://github.com/oumaimasami" target="_blank">
-              <GitHubIcon
-                className="mx-2"
-                style={{ fontSize: "40px", color: "white" }}
-              />
-            </a>
           </div>
         </div>
       </div>
