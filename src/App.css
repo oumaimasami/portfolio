@@ -79,3 +79,6 @@ input[type="checkbox"] {
 .text-dark {
   color: #000;
 }
+* {
+  print-color-adjust: exact !important;
+}
