@@ -1,7 +1,7 @@
 import React from "react";
 import "./header.css";
 import Typed from "react-typed";
-import image from "../images/img.jpg";
+import image from "../images/ouma.jpg";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import InstagramIcon from "@material-ui/icons/Instagram";
@@ -11,7 +11,7 @@ export default function Header({ light, english }) {
   return (
     <div className="container ">
       <div className="row center">
-        <img className="round-image" src={image} alt="." />
+        <img className="round-image" src={image} alt="..." />
         {english ? (
           <Typed
             className={"col-12 mt-5 pt-4 typed-text-dark"}
@@ -71,7 +71,7 @@ export default function Header({ light, english }) {
             target="_blank"
             rel="noreferrer"
           >
-            <img className="mx-2 git" src={git} />
+            <img className="mx-2 git" src={git} alt="..." />
           </a>
         </div>
       </div>
