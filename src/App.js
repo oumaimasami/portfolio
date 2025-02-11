@@ -1,6 +1,5 @@
 import "./App.css";
 import About from "./components/About";
-import Cantact from "./components/Cantact";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import sun from "./images/sun.png";

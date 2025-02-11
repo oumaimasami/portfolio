@@ -1,6 +1,5 @@
 import React from "react";
 import "./header.css";
-import Typed from "react-typed";
 import image from "../images/ouma.jpg";
 import git from "../images/git.png";
 
@@ -9,29 +8,7 @@ export default function Header({ light, english }) {
     <div className="container ">
       <div className="row center">
         <img className="round-image" src={image} alt="..." />
-        {english ? (
-          <Typed
-            className={"col-12 mt-5 pt-4 typed-text-dark"}
-            strings={[
-              "I'm a Full Stack Developer.",
-              "I'm a BI Master degree Student.",
-            ]}
-            typeSpeed={40}
-            backSpeed={50}
-            loop
-          />
-        ) : (
-          <Typed
-            className={"col-12 mt-5 pt-4 typed-text-dark"}
-            strings={[
-              "je suis une développeuse full stack.",
-              "Je suis une étudiante en master BI.",
-            ]}
-            typeSpeed={40}
-            backSpeed={50}
-            loop
-          />
-        )}
+
         <div className="row mt-3 pt-3 justify-content-center text-center">
           <div className="col justify-content-center">
             <a
