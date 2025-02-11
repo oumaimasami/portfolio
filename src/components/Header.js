@@ -36,13 +36,21 @@ export default function Header({ light, english }) {
           />
         )}
         <div className="row mt-3 pt-3 justify-content-center">
-          <a href="https://www.facebook.com/oumaima.samiii" target="_blank">
+          <a
+            href="https://www.facebook.com/oumaima.samiii"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FacebookIcon
               className="mx-2 icon"
               style={{ fontSize: "40px", color: "#3b5998" }}
             />
           </a>
-          <a href="https://www.instagram.com/oumaimasami_/" target="_blank">
+          <a
+            href="https://www.instagram.com/oumaimasami_/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <InstagramIcon
               className="mx-2 icon"
               style={{ fontSize: "40px", color: "#E1306C" }}
@@ -51,13 +59,18 @@ export default function Header({ light, english }) {
           <a
             href="https://www.linkedin.com/in/oumaima-sami-568504187/"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedInIcon
               className="mx-2 icon"
               style={{ fontSize: "40px", color: "#0077B5" }}
             />
           </a>
-          <a href="https://github.com/oumaimasami" target="_blank">
+          <a
+            href="https://github.com/oumaimasami"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img className="mx-2 git" src={git} />
           </a>
         </div>

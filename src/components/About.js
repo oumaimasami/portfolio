@@ -19,8 +19,9 @@ export default function About({ english }) {
           )}
           <a
             className="button"
-            href="https://drive.google.com/file/d/1MXyTP_y1NV816L2lrKxKU6LZZgxoz6A2/view?usp=share_link"
+            href="https://drive.google.com/file/d/1qNq0LxeP4Zq1WytDH96O1LMbs-yHTAZB/view?usp=sharing"
             target="_blank"
+            rel="noreferrer"
           >
             CV
           </a>
