@@ -6,7 +6,6 @@ import sun from "./images/sun.png";
 import moon from "./images/moon.png";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
-import HireMe from "./components/HireMe";
 import Footer from "./components/Footer";
 
 function App() {
@@ -70,7 +69,6 @@ function App() {
       <Header english={english} light={light} />
       <About english={english} />
       <Projects english={english} light={light} />
-      <HireMe english={english} />
       <Footer light={light} />
     </div>
   );
